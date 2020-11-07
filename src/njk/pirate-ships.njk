@@ -12,13 +12,13 @@
           <h5 class="card-title">{{ ship.ship_name }}</h5>
           <h6>{{ ship.captain }}</h6>
           <p class="card-text">{{ ship.blurb }}</p>
-          <div class="card-footer">
-            <a href="{{ ship.source }}" target="_blank">Source</a>
+          <div class="card-footer bg-transparent border-secondary">
+            <a class="footer" href="{{ ship.source }}" target="_blank">Source</a>
           </div>
         </div>
       </div>
     </div>
     {% endfor %}
-</div>
+  </div>
 </article>
 {% endblock %}
